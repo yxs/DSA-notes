@@ -1,5 +1,8 @@
+## Introduction
 
+[Blind75+ Leetcode Solutions](https://neetcode.io/)
 
+[编程竞赛（competitive programming） 知识整合站点](https://oi-wiki.org)
 
 ## About Interview
 
