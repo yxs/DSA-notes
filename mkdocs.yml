@@ -1,9 +1,9 @@
-site_name: XueSong's <replace>
+site_name: XueSong's Data Structure and Algorithms Notes
 site_description: Simply-to Understand, Devote Yourself!
 site_author: XueSong Ye
 
-repo_name: 'yxs/<replace>'
-repo_url: 'https://github.com/yxs/<replace>'
+repo_name: 'yxs/dsa-notes'
+repo_url: 'https://github.com/yxs/dsa-notes'
 
 theme:
   name: material
@@ -21,7 +21,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.top
     - header.autohide
 
