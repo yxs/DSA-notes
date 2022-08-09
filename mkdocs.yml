@@ -1,0 +1,65 @@
+site_name: XueSong's <replace>
+site_description: Simply-to Understand, Devote Yourself!
+site_author: XueSong Ye
+
+repo_name: 'yxs/<replace>'
+repo_url: 'https://github.com/yxs/<replace>'
+
+theme:
+  name: material
+  custom_dir: overrides
+
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline 
+      name: Switch to dark mode
+  - scheme: slate 
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - header.autohide
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yxs
+      name: XueSong on GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Song10_1
+      name: XueSong on Twitter
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/xuesong.ye/
+      name: XueSong on Instagram
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCrPZtHmt_ZZE2ZCTTui3W_Q
+      name: XueSong on YouTube
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - toc:
+      permalink: true
+      title: On this page
+
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - search
